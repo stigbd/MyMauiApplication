@@ -30,5 +30,5 @@ emulator -avd Pixel_6_API_27
 In another terminal, run the application:
 
 ```bash
-dotnet build -t:Run -f net7.0-android /p:AndroidSdkDirectory=/home/jamietaylor/Android/Sdk/
+dotnet build -t:Run -f net7.0-android
 ```
