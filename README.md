@@ -12,13 +12,25 @@ Create a virtual device as described here: <https://developer.android.com/studio
 
 ## Getting Started
 
+Install the .NET Maui workload:
+
+```bash
+sudo dotnet workload install maui-android
+```
+
+Create a .NET Maui project:
+
+```bash
+dotnet new maui -n MyMauiApplication
+```
+
 ## Building
 
 ```bash
 dotnet build
 ```
 
-## Running
+## Running on a virtual device
 
 List and start available devices:
 
