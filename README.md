@@ -22,12 +22,21 @@ Create a .NET Maui project:
 
 ```bash
 dotnet new maui -n MyMauiApplication
+cd MyMauiApplication
 ```
 
 ## Building
 
 ```bash
 dotnet build
+```
+
+## Start Android Debug Brigde (adb) server
+
+Start adb server:
+
+```bash
+adb start-server
 ```
 
 ## Running on a virtual device
